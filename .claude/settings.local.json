@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install *)",
+      "Bash(cmd /c \"dir c:\\\\projects\\\\greenflor-zen4\\\\node_modules /b 2>&1 | head -5\")",
+      "Bash(cmd /c \"cd /d c:\\\\projects\\\\greenflor-zen4 && node --version && npm --version\")",
+      "Bash(npm run *)"
+    ]
+  }
+}
