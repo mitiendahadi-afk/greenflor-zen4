@@ -20,7 +20,7 @@ export default function AdminLogin() {
       setError('البريد الإلكتروني أو كلمة المرور غير صحيحة')
       setLoading(false)
     } else {
-      router.push('/dashboard')
+      router.push('/dashboard/orders')
     }
   }
 
